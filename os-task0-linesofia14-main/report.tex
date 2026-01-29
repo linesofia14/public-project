@@ -1,0 +1,283 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem}
+\usepackage{soul}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{extarrows}
+\usepackage{graphicx}
+\usepackage{verbatim} 
+\usepackage[backend=biber,
+style=numeric,
+sorting=none,
+isbn=false,
+doi=false,
+url=false,
+]{biblatex}\addbibresource{bibliography.bib}
+
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{txfonts}
+\usepackage{wasysym}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{ragged2e}
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{changepage}
+\usepackage{setspace}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{tabto}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyvrb}
+\usepackage{catchfilebetweentags}
+\usepackage{fancyhdr}
+
+\usetikzlibrary{shapes.symbols,shapes.geometric,shadows,arrows.meta}
+\tikzset{>={Latex[width=1.5mm,length=2mm]}}
+\usepackage{flowchart}\usepackage[paperheight=11.69in,paperwidth=8.27in,left=1.18in,right=0.39in,top=0.79in,bottom=0.79in,headheight=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[T1,T2A]{fontenc}
+\TabPositions{0.5in,1.0in,1.5in,2.0in,2.5in,3.0in,3.5in,4.0in,4.5in,5.0in,5.5in,6.0in,6.5in,}
+
+\urlstyle{same}
+
+
+ %%%%%%%%%%%%  Set Depths for Sections  %%%%%%%%%%%%%%
+
+% 1) Section
+% 1.1) SubSection
+% 1.1.1) SubSubSection
+% 1.1.1.1) Paragraph
+% 1.1.1.1.1) Subparagraph
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+ %%%%%%%%%%%%  Set Depths for Nested Lists created by \begin{enumerate}  %%%%%%%%%%%%%%
+
+
+\setlistdepth{9}
+\renewlist{enumerate}{enumerate}{9}
+		\setlist[enumerate,1]{label=\arabic*)}
+		\setlist[enumerate,2]{label=\alph*)}
+		\setlist[enumerate,3]{label=(\roman*)}
+		\setlist[enumerate,4]{label=(\arabic*)}
+		\setlist[enumerate,5]{label=(\Alph*)}
+		\setlist[enumerate,6]{label=(\Roman*)}
+		\setlist[enumerate,7]{label=\arabic*}
+		\setlist[enumerate,8]{label=\alph*}
+		\setlist[enumerate,9]{label=\roman*}
+
+\renewlist{itemize}{itemize}{9}
+		\setlist[itemize]{label=$\cdot$}
+		\setlist[itemize,1]{label=\textbullet}
+		\setlist[itemize,2]{label=$\circ$}
+		\setlist[itemize,3]{label=$\ast$}
+		\setlist[itemize,4]{label=$\dagger$}
+		\setlist[itemize,5]{label=$\triangleright$}
+		\setlist[itemize,6]{label=$\bigstar$}
+		\setlist[itemize,7]{label=$\blacklozenge$}
+		\setlist[itemize,8]{label=$\prime$}
+
+\pagenumbering{gobble}
+\setlength{\topsep}{0pt}\setlength{\parskip}{9.96pt}
+\setlength{\parindent}{0pt}
+
+ %%%%%%%%%%%%  This sets linespacing (verticle gap between Lines) Default=1 %%%%%%%%%%%%%%
+
+
+\renewcommand{\arraystretch}{1.3}
+
+
+%%%%%%%%%%%%%%%%%%%% Document code starts here %%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\begin{Center}
+ГУАП
+\end{Center}\par
+
+\begin{Center}
+КАФЕДРА № 43
+\end{Center}\par
+\vspace{\baselineskip}
+ОТЧЕТ \\
+ЗАЩИЩЕН С ОЦЕНКОЙ\par
+
+ПРЕПОДАВАТЕЛЬ\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{table}[H]
+ 			\centering
+\begin{tabular}{p{2.05in}p{0.0in}p{1.76in}p{-0.01in}p{1.89in}}
+%row no:1
+\multicolumn{1}{p{2.05in}}{\Centering {ст. преп.}} & 
+\multicolumn{1}{p{0.0in}}{} & 
+\multicolumn{1}{p{1.76in}}{} & 
+\multicolumn{1}{p{-0.01in}}{} & 
+\multicolumn{1}{p{1.89in}}{\Centering {М.Д. Поляк}} \\
+\hhline{-~-~-}
+%row no:2
+\multicolumn{1}{p{2.05in}} {\Centering{\fontsize{10pt}{12.0pt}\selectfont  {должность, уч. степень, звание}}} & 
+\multicolumn{1}{p{0.0in}}{} & 
+\multicolumn{1}{p{1.76in}} {\Centering{\fontsize{10pt}{12.0pt}\selectfont  {подпись, дата}}} & 
+\multicolumn{1}{p{-0.01in}}{} & 
+\multicolumn{1}{p{1.89in}} {\Centering{\fontsize{10pt}{12.0pt}\selectfont  {инициалы, фамилия}}} \\
+\hhline{~~~~~}
+
+\end{tabular}
+ \end{table}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 ends here %%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{\baselineskip}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 2 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{table}[H]
+ 			\centering
+\begin{tabular}{p{6.49in}}
+%row no:1
+\multicolumn{1}{p{6.49in}}{\fontsize{14pt}{16.8pt}\selectfont {\section*{\Centering {ОТЧЕТ О ЛАБОРАТОРНОЙ РАБОТЕ №0}}}}\\
+\hhline{~}
+%row no:2
+\multicolumn{1}{p{6.49in}}{\section*{\Centering {ЗНАКОМСТВО С СИСТЕМОЙ КОНТРОЛЯ ВЕРСИЙ GIT И СЕРВИСОМ GITHUB}}
+} \\
+\hhline{~}
+%row no:3
+\multicolumn{1}{p{6.49in}}{\subsubsection*{\Centering {по курсу: Операционные системы}}
+} \\
+\hhline{~}
+%row no:4
+\multicolumn{1}{p{6.49in}}{} \\
+\hhline{~}
+%row no:5
+\multicolumn{1}{p{6.49in}}{} \\
+\hhline{~}
+
+\end{tabular}
+ \end{table}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 2 ends here %%%%%%%%%%%%%%%%%%%%
+
+РАБОТУ ВЫПОЛНИЛ\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 3 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{table}[H]
+ 			\centering
+\begin{tabular}{p{1.3in}p{1.0in}p{-0.04in}p{1.63in}p{-0.04in}p{1.63in}}
+%row no:1
+\multicolumn{1}{p{1.3in}}{СТУДЕНТ ГР. №} & 
+\multicolumn{1}{p{1.0in}}{\Centering {4233К}} & 
+\multicolumn{1}{p{-0.04in}}{} & 
+\multicolumn{1}{p{1.63in}}{\Centering {26.10}} & 
+\multicolumn{1}{p{-0.04in}}{} & 
+\multicolumn{1}{p{1.63in}}{\Centering {С.В. Голанова}} \\
+\hhline{~-~-~-}
+%row no:2
+\multicolumn{1}{p{1.3in}}{} & 
+\multicolumn{1}{p{1.0in}}{} & 
+\multicolumn{1}{p{-0.04in}}{} & 
+\multicolumn{1}{p{1.63in}} {\Centering{\fontsize{10pt}{12.0pt}\selectfont  {подпись, дата}}} & 
+\multicolumn{1}{p{-0.04in}}{} & 
+\multicolumn{1}{p{1.63in}} {\Centering{\fontsize{10pt}{12.0pt}\selectfont  {инициалы, фамилия}}} \\
+\hhline{~~~~~~}
+
+\end{tabular}
+ \end{table}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 3 ends here %%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+\begin{Center}
+Санкт-Петербург \the\year{}
+\end{Center}\par
+\newpage
+\section*{\textbf{Задание 1}}
+Цель: подумать о своих целях и задачах на текущий семестр.
+\begin{itemize}
+\item С помощью веб-интерфейса GitHub создайте файл goals.md в своем репозитории.
+\item Используя язык разметки markdown, создайте заголовки "Мой опыт" и "Мои цели".
+\item Напишите один абзац (1-5 предложений) о своем опыте по разработке программного обеспечения. Добавьте работающую ссылку в написанный текст.
+\item Создайте ненумерованный список из 2 или 3 целей, которых планируете достичь в рамках данного курса.
+\item Создайте ненумерованный список из 3-9 задач, над которыми собираетесь работать в рамках данного курса для достижения поставленных целей.
+\item Не забудьте закоммитить файл в свой репозиторий на GitHub.
+\item Проверьте, что созданный файл отформатирован и отображается при предпросмотре именно так, как планировалось.
+\end{itemize}
+\section*{\textbf{Задание 2}}
+Цель: научиться использовать git из командной строки.
+\begin{itemize}
+\item Ознакомьтесь с инструкцией по работе с git и github из командной строки.
+\item Клонируйте свой репозиторий на локальный компьютер используя команду git clone ... из командной строки.
+\item Создайте новый файл info.md в своей локальной копии репозитория.
+\item Запишите в этот файл свое ФИО (полностью), название используемой операционной системы, текущие дату и время, - каждый элемент с новой строки (всего получится 3 строки).
+\item Выполните команды git add info.md и git commit в командной строке.
+\item Введите краткое описание коммита.
+\item Выполните команду git push.
+\end{itemize}
+\section*{\textbf{Задание 3}}
+Цель: соблюсти формальности.
+\begin{itemize}
+\item Подготовьте отчет по лабораторной работе, включающий в себя: титульный лист, текст задания, результат выполнения задания (содержимое файлов goals.md и info.md).
+\item Сохраните отчет в файле report.pdf в своем репозитории на GitHub.
+\item Для извлечения пользы из этого задания рекомендуется воспользоваться системой компьютерной верстки LaTeX для подготовки отчета, скачать ее можно здесь. По ссылке доступен пример титульного листа в формате TeX. Скомпилировать LaTeX-документ можно, например, с помощью команды 
+\verb|pdflatex -jobname=report| \\
+\verb|<имя_файла_с_отчетом>.tex|.
+\item В случае выполнения отчета в LaTeX следует помимо файла report.pdf загрузить в репозиторий на GitHub исходный *.tex файл.
+\end{itemize}
+\section*{Текст файла goals.md}
+\subsection*{Мой опыт}
+К сожалению, мой опыт разработки программного обеспечения ограничивается заданиями в вузе. Где в рамках различных дисциплин шла разработка программ и приложений для различных прикладных областей. Из того, что писала я, помню базу для обеспечения работы аэропорта, графическое приложение для обеспечения работы ветклиники, базу для регистрации больных в поликлинике, разработку стримингового веб-сервиса для просмотра аниме. Ссылка на задание.
+\begin{itemize}
+\subsection*{Мои цели}
+\item Завершить курс по операционным системам.
+\item Научиться работать с GitHub.
+\item Освоить многопоточное программирование.
+\end{itemize}
+\subsection*{Задачи}
+\begin{itemize}
+\item Выполнять практические задания из курса.
+\item Осваивать материал лекций.
+\item Изучить дополнительные материалы по работе с GitHub.
+\item Изучать дополнительные материалы по операционным системам.
+\end{itemize}
+\section*{Текст файла info.md}
+Голанова Софья Владимировна\\
+Windows 11\\
+26.10.2024 5:06
+\section*{Вывод}
+В ходе выполнения лабораторной работы были получены базовые навыки работы с Git, GitHub и LaTeX. Были освоены навыки работы с локальной копией репозитория и создания, а также работы с markdown-файлами. Получен опыт работы с LaTeX.
+\end{document}
